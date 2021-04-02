@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="86" id="k53-Pe-Nhv" customClass="MainViewCell" customModule="zadanieWF" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k53-Pe-Nhv" id="jIp-5G-ab2">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zh0-bK-qyV" userLabel="CardView">
+                        <rect key="frame" x="8" y="10" width="390" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n69-fE-bNO" userLabel="cityNameLabel">
+                                <rect key="frame" x="0.0" y="11" width="41.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="41.5" id="O16-8R-Tgh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9c-2J-0fh" userLabel="tempLabel">
+                                <rect key="frame" x="49" y="11" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8VX-m1-ZZ1" userLabel="conditionLabel">
+                                <rect key="frame" x="-1" y="42" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="8VX-m1-ZZ1" firstAttribute="leading" secondItem="zh0-bK-qyV" secondAttribute="leading" constant="-1" id="70U-Gf-Hld"/>
+                            <constraint firstItem="U9c-2J-0fh" firstAttribute="leading" secondItem="n69-fE-bNO" secondAttribute="trailing" constant="7.5" id="OEX-fU-bee"/>
+                            <constraint firstItem="U9c-2J-0fh" firstAttribute="top" secondItem="zh0-bK-qyV" secondAttribute="top" constant="11" id="f2l-0M-ar7"/>
+                            <constraint firstItem="n69-fE-bNO" firstAttribute="top" secondItem="zh0-bK-qyV" secondAttribute="top" constant="11" id="luH-Pe-XOQ"/>
+                            <constraint firstAttribute="bottom" secondItem="8VX-m1-ZZ1" secondAttribute="bottom" constant="2" id="x9m-3j-68r"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zh0-bK-qyV" firstAttribute="top" secondItem="jIp-5G-ab2" secondAttribute="top" constant="10" id="3Vr-HW-5LT"/>
+                    <constraint firstItem="n69-fE-bNO" firstAttribute="leading" secondItem="jIp-5G-ab2" secondAttribute="leading" constant="8" id="5VX-cD-uBv"/>
+                    <constraint firstAttribute="trailing" secondItem="zh0-bK-qyV" secondAttribute="trailing" constant="8" id="FkL-fQ-Xrm"/>
+                    <constraint firstAttribute="bottom" secondItem="zh0-bK-qyV" secondAttribute="bottom" constant="11" id="cRD-Y7-AMC"/>
+                    <constraint firstItem="zh0-bK-qyV" firstAttribute="leading" secondItem="jIp-5G-ab2" secondAttribute="leading" constant="8" id="qxR-fO-FO7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardView" destination="zh0-bK-qyV" id="0I9-Re-R50"/>
+                <outlet property="cityNameLabel" destination="n69-fE-bNO" id="HD6-IW-LAK"/>
+                <outlet property="conditionLabel" destination="8VX-m1-ZZ1" id="csi-40-alQ"/>
+                <outlet property="tempLabel" destination="U9c-2J-0fh" id="hyh-HF-mfd"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="66.964285714285708"/>
+        </tableViewCell>
+    </objects>
+</document>

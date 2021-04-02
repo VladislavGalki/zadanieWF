@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043C4F4626151034004D04C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F4526151034004D04C6 /* AppDelegate.swift */; };
+		043C4F4826151034004D04C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F4726151034004D04C6 /* SceneDelegate.swift */; };
+		043C4F4A26151034004D04C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F4926151034004D04C6 /* MainViewController.swift */; };
+		043C4F4D26151034004D04C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043C4F4B26151034004D04C6 /* Main.storyboard */; };
+		043C4F4F26151038004D04C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C4F4E26151038004D04C6 /* Assets.xcassets */; };
+		043C4F5226151038004D04C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043C4F5026151038004D04C6 /* LaunchScreen.storyboard */; };
+		043C4F66261516BB004D04C6 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F65261516BB004D04C6 /* MainPresenter.swift */; };
+		043C4F7426152426004D04C6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F7326152426004D04C6 /* WeatherModel.swift */; };
+		043C4F7926152616004D04C6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F7826152616004D04C6 /* NetworkService.swift */; };
+		043C4F7D26152A36004D04C6 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F7C26152A36004D04C6 /* NetworkDataFetcher.swift */; };
+		043C4F812615D941004D04C6 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F802615D941004D04C6 /* MainViewCell.swift */; };
+		043C4F852615D95D004D04C6 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043C4F842615D95D004D04C6 /* MainViewCell.xib */; };
+		043C4F8C26168A75004D04C6 /* DetailWeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F8B26168A74004D04C6 /* DetailWeatherPresenter.swift */; };
+		043C4F9126168D79004D04C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F8F26168D79004D04C6 /* DetailViewController.swift */; };
+		043C4F9D26169AB1004D04C6 /* ModuleBuiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C4F9C26169AB1004D04C6 /* ModuleBuiler.swift */; };
+		043C4FA026169DE8004D04C6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043C4F9F26169DE8004D04C6 /* MainViewController.xib */; };
+		043C4FA52616A3F5004D04C6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043C4FA42616A3F5004D04C6 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043C4F4226151034004D04C6 /* zadanieWF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zadanieWF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043C4F4526151034004D04C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043C4F4726151034004D04C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		043C4F4926151034004D04C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		043C4F4C26151034004D04C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043C4F4E26151038004D04C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043C4F5126151038004D04C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043C4F5326151038004D04C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043C4F65261516BB004D04C6 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		043C4F7326152426004D04C6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		043C4F7826152616004D04C6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		043C4F7C26152A36004D04C6 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		043C4F802615D941004D04C6 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		043C4F842615D95D004D04C6 /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		043C4F8B26168A74004D04C6 /* DetailWeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherPresenter.swift; sourceTree = "<group>"; };
+		043C4F8F26168D79004D04C6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		043C4F9C26169AB1004D04C6 /* ModuleBuiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuiler.swift; sourceTree = "<group>"; };
+		043C4F9F26169DE8004D04C6 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		043C4FA42616A3F5004D04C6 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043C4F3F26151034004D04C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043C4F3926151034004D04C6 = {
+			isa = PBXGroup;
+			children = (
+				043C4F4426151034004D04C6 /* zadanieWF */,
+				043C4F4326151034004D04C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043C4F4326151034004D04C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F4226151034004D04C6 /* zadanieWF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043C4F4426151034004D04C6 /* zadanieWF */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F5E261512D2004D04C6 /* Application */,
+				043C4F5A2615127C004D04C6 /* MainModule */,
+				043C4F8726168A32004D04C6 /* DetailWeatherModule */,
+				043C4F77261525A6004D04C6 /* ServiceLayer */,
+				043C4F5326151038004D04C6 /* Info.plist */,
+			);
+			path = zadanieWF;
+			sourceTree = "<group>";
+		};
+		043C4F5A2615127C004D04C6 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F5B26151287004D04C6 /* Model */,
+				043C4F5C2615128C004D04C6 /* View */,
+				043C4F5D261512A4004D04C6 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		043C4F5B26151287004D04C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F7326152426004D04C6 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043C4F5C2615128C004D04C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F7F2615D938004D04C6 /* Cell */,
+				043C4F4926151034004D04C6 /* MainViewController.swift */,
+				043C4F9F26169DE8004D04C6 /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043C4F5D261512A4004D04C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F65261516BB004D04C6 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		043C4F5E261512D2004D04C6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F4526151034004D04C6 /* AppDelegate.swift */,
+				043C4F4726151034004D04C6 /* SceneDelegate.swift */,
+				043C4F4E26151038004D04C6 /* Assets.xcassets */,
+				043C4F5026151038004D04C6 /* LaunchScreen.storyboard */,
+				043C4F9C26169AB1004D04C6 /* ModuleBuiler.swift */,
+				043C4F4B26151034004D04C6 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		043C4F77261525A6004D04C6 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F7826152616004D04C6 /* NetworkService.swift */,
+				043C4F7C26152A36004D04C6 /* NetworkDataFetcher.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		043C4F7F2615D938004D04C6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F802615D941004D04C6 /* MainViewCell.swift */,
+				043C4F842615D95D004D04C6 /* MainViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		043C4F8726168A32004D04C6 /* DetailWeatherModule */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F8926168A55004D04C6 /* View */,
+				043C4F8826168A4C004D04C6 /* Presenter */,
+			);
+			path = DetailWeatherModule;
+			sourceTree = "<group>";
+		};
+		043C4F8826168A4C004D04C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F8B26168A74004D04C6 /* DetailWeatherPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		043C4F8926168A55004D04C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043C4F8F26168D79004D04C6 /* DetailViewController.swift */,
+				043C4FA42616A3F5004D04C6 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043C4F4126151034004D04C6 /* zadanieWF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043C4F5626151038004D04C6 /* Build configuration list for PBXNativeTarget "zadanieWF" */;
+			buildPhases = (
+				043C4F3E26151034004D04C6 /* Sources */,
+				043C4F3F26151034004D04C6 /* Frameworks */,
+				043C4F4026151034004D04C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zadanieWF;
+			productName = zadanieWF;
+			productReference = 043C4F4226151034004D04C6 /* zadanieWF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043C4F3A26151034004D04C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					043C4F4126151034004D04C6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 043C4F3D26151034004D04C6 /* Build configuration list for PBXProject "zadanieWF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043C4F3926151034004D04C6;
+			productRefGroup = 043C4F4326151034004D04C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043C4F4126151034004D04C6 /* zadanieWF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043C4F4026151034004D04C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043C4F5226151038004D04C6 /* LaunchScreen.storyboard in Resources */,
+				043C4FA52616A3F5004D04C6 /* DetailViewController.xib in Resources */,
+				043C4FA026169DE8004D04C6 /* MainViewController.xib in Resources */,
+				043C4F852615D95D004D04C6 /* MainViewCell.xib in Resources */,
+				043C4F4F26151038004D04C6 /* Assets.xcassets in Resources */,
+				043C4F4D26151034004D04C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043C4F3E26151034004D04C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043C4F7D26152A36004D04C6 /* NetworkDataFetcher.swift in Sources */,
+				043C4F9D26169AB1004D04C6 /* ModuleBuiler.swift in Sources */,
+				043C4F4A26151034004D04C6 /* MainViewController.swift in Sources */,
+				043C4F4626151034004D04C6 /* AppDelegate.swift in Sources */,
+				043C4F4826151034004D04C6 /* SceneDelegate.swift in Sources */,
+				043C4F66261516BB004D04C6 /* MainPresenter.swift in Sources */,
+				043C4F8C26168A75004D04C6 /* DetailWeatherPresenter.swift in Sources */,
+				043C4F812615D941004D04C6 /* MainViewCell.swift in Sources */,
+				043C4F9126168D79004D04C6 /* DetailViewController.swift in Sources */,
+				043C4F7926152616004D04C6 /* NetworkService.swift in Sources */,
+				043C4F7426152426004D04C6 /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043C4F4B26151034004D04C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043C4F4C26151034004D04C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043C4F5026151038004D04C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043C4F5126151038004D04C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043C4F5426151038004D04C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043C4F5526151038004D04C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043C4F5726151038004D04C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zadanieWF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galkin.zadanieWF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043C4F5826151038004D04C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zadanieWF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galkin.zadanieWF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043C4F3D26151034004D04C6 /* Build configuration list for PBXProject "zadanieWF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043C4F5426151038004D04C6 /* Debug */,
+				043C4F5526151038004D04C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043C4F5626151038004D04C6 /* Build configuration list for PBXNativeTarget "zadanieWF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043C4F5726151038004D04C6 /* Debug */,
+				043C4F5826151038004D04C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043C4F3A26151034004D04C6 /* Project object */;
+}
